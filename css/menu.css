@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: tomato;
+  padding: 2px 10px;
+  margin-top: 3px;
+  font-size: 13px;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 13px;
+  font-weight: bold;
+  color: #2fdab8;
+  padding: 5px 0px 5px 5px;
+  line-height: 10px;
+}
+
+.mega-dropdown-menu > li > ul > li > a:hover{
+  background: green;
+  color: white;
+}
